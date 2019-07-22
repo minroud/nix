@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">nix</string>
+    <string name="title_activity_main">nix</string>
+    <string name="package_name">nix.minroud.es</string>
+    <string name="fileprovider_authority">nix.minroud.es.fileprovider</string>
+    <string name="custom_url_scheme">nix.minroud.es</string>
+</resources>
