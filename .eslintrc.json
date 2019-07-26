@@ -1,0 +1,38 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": [
+    "functional",
+    "react",
+    "react-hooks",
+    "@typescript-eslint",
+    "prettier"
+  ],
+  "extends": [
+    "plugin:react/recommended",
+    "prettier/@typescript-eslint",
+    "plugin:functional/recommended",
+    "plugin:react/recommended",
+    "prettier/react"],
+  "rules": {
+    "functional/prefer-readonly-types": ["error", { "ignorePattern": "mutable" }],
+    "@typescript-eslint/explicit-function-return-type": "error",
+    "no-undef": "off",
+    "no-var": "error",
+    "no-param-reassign": "error",
+    "prettier/prettier": ["warn", { "singleQuote": true }],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
