@@ -4,7 +4,7 @@ Once developed, it will simulate a simplified mobile phone OS as part of a escap
 Stay tuned for more!
 
 # Underlying Tech
-Nix is a hybrid mobile app written in Typescript using React and compiled with Capacitor.
+Nix is a hybrid mobile app written in TypeScript using React and compiled with Capacitor.
 It uses Ionic as a UI library.
 
 ## Why hybrid?
