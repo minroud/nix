@@ -8,6 +8,7 @@
     "@ionic/core": "^4.6.0",
     "@ionic/react": "^0.0.6",
     "android": "^0.0.8",
+    "moment": "^2.24.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router": "^5.0.1",
@@ -36,7 +37,10 @@
   },
   "devDependencies": {
     "@capacitor/cli": "^1.1.1",
+    "@testing-library/jest-dom": "^4.0.0",
+    "@testing-library/react": "^8.0.7",
     "@types/jest": "24.0.15",
+    "@types/moment": "^2.13.0",
     "@types/node": "12.0.10",
     "@types/react": "16.8.22",
     "@types/react-dom": "16.8.4",

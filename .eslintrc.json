@@ -22,13 +22,15 @@
     "prettier/react"],
   "rules": {
     "functional/prefer-readonly-types": ["error", { "ignorePattern": "mutable" }],
+    "functional/no-let": ["error", { "ignorePattern": "lazy" }],
     "@typescript-eslint/explicit-function-return-type": "error",
     "no-undef": "off",
     "no-var": "error",
     "no-param-reassign": "error",
-    "prettier/prettier": ["warn", { "singleQuote": true }],
+    "prettier/prettier": "warn",
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "react-hooks/exhaustive-deps": "warn",
+    "react/prop-types": "off"
   },
   "settings": {
     "react": {
