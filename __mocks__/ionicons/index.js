@@ -1,1 +1,1 @@
-exports.addIcons = () => {};
+exports.addIcons = () => {}

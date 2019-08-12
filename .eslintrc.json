@@ -7,19 +7,14 @@
       "jsx": true
     }
   },
-  "plugins": [
-    "functional",
-    "react",
-    "react-hooks",
-    "@typescript-eslint",
-    "prettier"
-  ],
+  "plugins": ["functional", "react", "react-hooks", "@typescript-eslint", "prettier"],
   "extends": [
     "plugin:react/recommended",
     "prettier/@typescript-eslint",
     "plugin:functional/recommended",
     "plugin:react/recommended",
-    "prettier/react"],
+    "prettier/react"
+  ],
   "rules": {
     "functional/prefer-readonly-types": ["error", { "ignorePattern": "mutable" }],
     "functional/no-let": ["error", { "ignorePattern": "lazy" }],

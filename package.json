@@ -23,6 +23,17 @@
     "lint": "eslint './src/**/*.{ts,tsx}'",
     "lint:fix": "eslint './src/**/*.{ts,tsx}' --fix"
   },
+  "lint-staged": {
+    "src/**/*.{ts,tsx,js,json}": [
+      "yarn lint:fix",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged && CI=true yarn test"
+    }
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -53,6 +64,8 @@
     "eslint-plugin-functional": "^0.4.0",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react-hooks": "^1.6.1",
+    "husky": "^3.0.3",
+    "lint-staged": "^9.2.1",
     "prettier": "^1.18.2",
     "typescript": "3.5.2"
   }

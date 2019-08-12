@@ -1,1 +1,1 @@
-exports.defineCustomElements = () => {};
+exports.defineCustomElements = () => {}
